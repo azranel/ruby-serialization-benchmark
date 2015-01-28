@@ -1,0 +1,8 @@
+package foo;
+
+message Person {
+	required string firstname = 1;
+	required string lastname = 2;
+	required string birthday = 3;
+	repeated Person friends = 4;
+}
