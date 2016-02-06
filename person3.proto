@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package foo;
+
+message Person3 {
+	string firstname = 1;
+	string lastname = 2;
+	string birthday = 3;
+	repeated Person3 friends = 4;
+}
